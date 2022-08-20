@@ -5,26 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+div{
+  background-color: steelblue;
+}
+html{
   background-color: steelblue;
 }
 h1.title{
   text-align: center;
 }
-.button{
-  margin-left: 555px;
-  width: 75px;
-  height: 30px;
-  border-radius: 5px;
-}
-.button:hover{
-  cursor: pointer;
-}
+
 ul{
   list-style-type: none;
+  text-align: center;
   display: 'grid';
   background-color: aliceblue;
-  width: 350px;
-  margin-left: 555px;
+  width: 500px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 5px black;
 }
 li{
   font-size: larger;
